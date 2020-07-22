@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "generic-http-service"
+    }
+  },
+  "defaultProject": "generic-http-service",
+  "cli": {
+    "analytics": "7bea1425-8d80-4b67-9764-20b15887ac71"
+  }
 }
